@@ -1,0 +1,154 @@
+20:45:33 **** Build of configuration Debug for project Hello_LedMax ****
+make all 
+Building file: ../system/src/stm32f1-stdperiph/misc.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/stm32f1-stdperiph/misc.d" -MT"system/src/stm32f1-stdperiph/misc.o" -c -o "system/src/stm32f1-stdperiph/misc.o" "../system/src/stm32f1-stdperiph/misc.c"
+Finished building: ../system/src/stm32f1-stdperiph/misc.c
+ 
+Building file: ../system/src/stm32f1-stdperiph/stm32f10x_gpio.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/stm32f1-stdperiph/stm32f10x_gpio.d" -MT"system/src/stm32f1-stdperiph/stm32f10x_gpio.o" -c -o "system/src/stm32f1-stdperiph/stm32f10x_gpio.o" "../system/src/stm32f1-stdperiph/stm32f10x_gpio.c"
+Finished building: ../system/src/stm32f1-stdperiph/stm32f10x_gpio.c
+ 
+Building file: ../system/src/stm32f1-stdperiph/stm32f10x_rcc.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/stm32f1-stdperiph/stm32f10x_rcc.d" -MT"system/src/stm32f1-stdperiph/stm32f10x_rcc.o" -c -o "system/src/stm32f1-stdperiph/stm32f10x_rcc.o" "../system/src/stm32f1-stdperiph/stm32f10x_rcc.c"
+Finished building: ../system/src/stm32f1-stdperiph/stm32f10x_rcc.c
+ 
+Building file: ../system/src/newlib/_cxx.cpp
+Invoking: Cross ARM GNU C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu++11 -fabi-version=0 -fno-exceptions -fno-rtti -fno-use-cxa-atexit -fno-threadsafe-statics -MMD -MP -MF"system/src/newlib/_cxx.d" -MT"system/src/newlib/_cxx.o" -c -o "system/src/newlib/_cxx.o" "../system/src/newlib/_cxx.cpp"
+Finished building: ../system/src/newlib/_cxx.cpp
+ 
+Building file: ../system/src/newlib/_exit.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/newlib/_exit.d" -MT"system/src/newlib/_exit.o" -c -o "system/src/newlib/_exit.o" "../system/src/newlib/_exit.c"
+Finished building: ../system/src/newlib/_exit.c
+ 
+Building file: ../system/src/newlib/_sbrk.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/newlib/_sbrk.d" -MT"system/src/newlib/_sbrk.o" -c -o "system/src/newlib/_sbrk.o" "../system/src/newlib/_sbrk.c"
+Finished building: ../system/src/newlib/_sbrk.c
+ 
+Building file: ../system/src/newlib/_startup.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/newlib/_startup.d" -MT"system/src/newlib/_startup.o" -c -o "system/src/newlib/_startup.o" "../system/src/newlib/_startup.c"
+Finished building: ../system/src/newlib/_startup.c
+ 
+Building file: ../system/src/newlib/_syscalls.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/newlib/_syscalls.d" -MT"system/src/newlib/_syscalls.o" -c -o "system/src/newlib/_syscalls.o" "../system/src/newlib/_syscalls.c"
+Finished building: ../system/src/newlib/_syscalls.c
+ 
+Building file: ../system/src/newlib/assert.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/newlib/assert.d" -MT"system/src/newlib/assert.o" -c -o "system/src/newlib/assert.o" "../system/src/newlib/assert.c"
+Finished building: ../system/src/newlib/assert.c
+ 
+Building file: ../system/src/diag/Trace.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/diag/Trace.d" -MT"system/src/diag/Trace.o" -c -o "system/src/diag/Trace.o" "../system/src/diag/Trace.c"
+Finished building: ../system/src/diag/Trace.c
+ 
+Building file: ../system/src/diag/trace_impl.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/diag/trace_impl.d" -MT"system/src/diag/trace_impl.o" -c -o "system/src/diag/trace_impl.o" "../system/src/diag/trace_impl.c"
+Finished building: ../system/src/diag/trace_impl.c
+ 
+Building file: ../system/src/cortexm/_initialize_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_initialize_hardware.d" -MT"system/src/cortexm/_initialize_hardware.o" -c -o "system/src/cortexm/_initialize_hardware.o" "../system/src/cortexm/_initialize_hardware.c"
+Finished building: ../system/src/cortexm/_initialize_hardware.c
+ 
+Building file: ../system/src/cortexm/_reset_hardware.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/cortexm/_reset_hardware.d" -MT"system/src/cortexm/_reset_hardware.o" -c -o "system/src/cortexm/_reset_hardware.o" "../system/src/cortexm/_reset_hardware.c"
+Finished building: ../system/src/cortexm/_reset_hardware.c
+ 
+Building file: ../system/src/cortexm/exception_handlers.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/cortexm/exception_handlers.d" -MT"system/src/cortexm/exception_handlers.o" -c -o "system/src/cortexm/exception_handlers.o" "../system/src/cortexm/exception_handlers.c"
+Finished building: ../system/src/cortexm/exception_handlers.c
+ 
+Building file: ../system/src/cmsis/system_stm32f10x.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/cmsis/system_stm32f10x.d" -MT"system/src/cmsis/system_stm32f10x.o" -c -o "system/src/cmsis/system_stm32f10x.o" "../system/src/cmsis/system_stm32f10x.c"
+Finished building: ../system/src/cmsis/system_stm32f10x.c
+ 
+Building file: ../system/src/cmsis/vectors_stm32f10x.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"system/src/cmsis/vectors_stm32f10x.d" -MT"system/src/cmsis/vectors_stm32f10x.o" -c -o "system/src/cmsis/vectors_stm32f10x.o" "../system/src/cmsis/vectors_stm32f10x.c"
+Finished building: ../system/src/cmsis/vectors_stm32f10x.c
+ 
+Building file: ../src/DIO_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"src/DIO_program.d" -MT"src/DIO_program.o" -c -o "src/DIO_program.o" "../src/DIO_program.c"
+Finished building: ../src/DIO_program.c
+ 
+Building file: ../src/HLEDMAT_program.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -ffreestanding -fno-move-loop-invariants -Wall -Wextra  -g3 -DDEBUG -DUSE_FULL_ASSERT -DTRACE -DOS_USE_TRACE_SEMIHOSTING_DEBUG -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DHSE_VALUE=8000000 -I"../include" -I"../system/include" -I"../system/include/cmsis" -I"../system/include/stm32f1-stdperiph" -std=gnu11 -MMD -MP -MF"src/HLEDMAT_program.d" -MT"src/HLEDMAT_program.o" -c -o "src/HLEDMAT_program.o" "../src/HLEDMAT_program.c"
+../src/HLEDMAT_program.c: In function 'HLEDMAT_voidInit':
+../src/HLEDMAT_program.c:19:2: warning: implicit declaration of function 'MGPIO_VoidSetPinDirection'; did you mean 'MGPIO_voidSetPinDirection'? [-Wimplicit-function-declaration]
+  MGPIO_VoidSetPinDirection(HLEDMAT_ROW_0,0b0010);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+  MGPIO_voidSetPinDirection
+../src/HLEDMAT_program.c: In function 'HLEDMRX_voidDisplay':
+../src/HLEDMAT_program.c:45:2: warning: implicit declaration of function 'SetRowValues'; did you mean 'SetRowsValue'? [-Wimplicit-function-declaration]
+  SetRowValues(Copy_u8Data[0]);
+  ^~~~~~~~~~~~
+  SetRowsValue
+../src/HLEDMAT_program.c:46:2: warning: implicit declaration of function 'MGPIO_VoidSetPinValue'; did you mean 'MGPIO_voidSetPinValue'? [-Wimplicit-function-declaration]
+  MGPIO_VoidSetPinValue(HLEDMAT_COL_0,GPIO_LOW);
+  ^~~~~~~~~~~~~~~~~~~~~
+  MGPIO_voidSetPinValue
+In file included from ../src/HLEDMAT_program.c:8:0:
+../src/HLEDMAT_program.c: In function 'SetRowsValue':
+../src/HLEDMAT_program.c:115:23: error: subscripted value is neither array nor pointer nor vector
+   GET_BIT(Copy_u8Value[Local_u8Idx],Local_u8Idx);
+                       ^
+../include/BIT_MATH.h:11:37: note: in definition of macro 'GET_BIT'
+ #define GET_BIT(VAR,BIT)          ((VAR >> BIT) & 1  )
+                                     ^~~
+../src/HLEDMAT_program.c:118:2: warning: implicit declaration of function 'MGPIO_VidSetPinValue'; did you mean 'MGPIO_voidSetPinValue'? [-Wimplicit-function-declaration]
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_0,Copy_u8Value[0]);
+  ^~~~~~~~~~~~~~~~~~~~
+  MGPIO_voidSetPinValue
+../src/HLEDMAT_program.c:118:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_0,Copy_u8Value[0]);
+                                                 ^
+../src/HLEDMAT_program.c:119:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_1,Copy_u8Value[1]);
+                                                 ^
+../src/HLEDMAT_program.c:120:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_2,Copy_u8Value[2]);
+                                                 ^
+../src/HLEDMAT_program.c:121:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_3,Copy_u8Value[3]);
+                                                 ^
+../src/HLEDMAT_program.c:122:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_4,Copy_u8Value[4]);
+                                                 ^
+../src/HLEDMAT_program.c:123:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_5,Copy_u8Value[5]);
+                                                 ^
+../src/HLEDMAT_program.c:124:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_6,Copy_u8Value[6]);
+                                                 ^
+../src/HLEDMAT_program.c:125:49: error: subscripted value is neither array nor pointer nor vector
+  MGPIO_VidSetPinValue(HLEDMAT_ROW_7,Copy_u8Value[7]);
+                                                 ^
+../src/HLEDMAT_program.c:112:5: warning: unused variable 'Local_u8Bit' [-Wunused-variable]
+  u8 Local_u8Bit[8];
+     ^~~~~~~~~~~
+../src/HLEDMAT_program.c:109:31: warning: parameter 'Copy_u8Value' set but not used [-Wunused-but-set-parameter]
+ static void SetRowsValue  (u8 Copy_u8Value)
+                               ^~~~~~~~~~~~
+At top level:
+../src/HLEDMAT_program.c:109:13: warning: 'SetRowsValue' defined but not used [-Wunused-function]
+ static void SetRowsValue  (u8 Copy_u8Value)
+             ^~~~~~~~~~~~
+make: *** [src/subdir.mk:32: src/HLEDMAT_program.o] Error 1
+
+20:45:41 Build Finished (took 8s.110ms)
+

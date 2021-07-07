@@ -1,0 +1,16 @@
+20:23:32 **** Incremental Build of configuration Debug for project Hello_DAC ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Hello_DAC.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44897	    176	    420	  45493	   b1b5	Hello_DAC.elf
+Finished building: Hello_DAC.siz
+ 
+15:57:56 **** Build of configuration Debug for project Hello_DAC ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "Hello_DAC.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44897	    176	    420	  45493	   b1b5	Hello_DAC.elf
+Finished building: Hello_DAC.siz
+ 
